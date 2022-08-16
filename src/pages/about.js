@@ -1,11 +1,14 @@
-import * as React from "react";
-
+import * as React from "react"
+import Layout from "../components/layout";
 
 const About = () => {
   return (
-    <div>
-        <h1>hi welcome to about.</h1>
-    </div>
+    <main>
+        
+        <Layout pagehead={'About'} pagetitle='About us'>
+    <p>Welcome to about page</p>
+</Layout>
+    </main>
   );
 };
 export default About;
